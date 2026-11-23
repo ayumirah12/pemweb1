@@ -13,6 +13,8 @@ Salin isi folder ini (app, public, resources, routes) ke proyek Laravel 12, timp
 | Album, judul & foto galeri | HalamanController.php, method daftarAlbum() |
 | File foto galeri | public/images/galeri/<album>/ |
 | Foto profil | public/images/profil.jpg |
+| Playlist Spotify (link playlist) | HalamanController.php, method daftarPlaylist() |
+| Tampilan Playlist | resources/views/playlist.blade.php |
 | Tampilan Home | resources/views/home.blade.php |
 | Tampilan Data Diri | resources/views/data-diri.blade.php |
 | Tampilan Galeri | resources/views/galeri.blade.php |
@@ -20,5 +22,3 @@ Salin isi folder ini (app, public, resources, routes) ke proyek Laravel 12, timp
 | Footer | resources/views/partials/footer.blade.php |
 | Warna, gaya, font nama | public/css/style.css |
 | Daftar halaman (route) | routes/web.php |
-# Mirah_dhinata
-# Mirah_dhinata

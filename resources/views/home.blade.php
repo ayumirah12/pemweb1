@@ -100,6 +100,20 @@
         </div>
     </div>
 </section>
+
+{{-- PANEL 4: Film & serial favorit --}}
+<section class="lebar" id="film">
+    <h2 class="judul-bagian">Film &amp; Serial Favorit</h2>
+    <div class="hobi-grid">
+        @foreach ($film as $f)
+            <article class="panel hobi anggota">
+                <h3>{{ $f['judul'] }}</h3>
+                <p><b>{{ $f['jenis'] }}</b> &middot; {{ $f['asal'] }}</p>
+                <p>{{ $f['genre'] }}</p>
+            </article>
+        @endforeach
+    </div>
+</section>
 @endsection
 
 @push('skrip')

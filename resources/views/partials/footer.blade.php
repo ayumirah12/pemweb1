@@ -13,6 +13,8 @@
             <h4>Profil</h4>
             <a href="{{ route('data-diri') }}">Data Diri</a>
             <a href="{{ route('galeri') }}">Galeri</a>
+            <a href="{{ route('playlist') }}">Playlist</a>
+            <a href="{{ route('teman') }}">Teman</a>
         </div>
         <div class="footer-kolom">
             <h4>Contact</h4>

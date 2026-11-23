@@ -48,5 +48,16 @@
             </article>
         @endforeach
     </div>
+
+    <h2 class="judul-bagian" id="film">Film &amp; Serial Favorit</h2>
+    <div class="hobi-grid">
+        @foreach ($film as $f)
+            <article class="panel hobi anggota">
+                <h3>{{ $f['judul'] }}</h3>
+                <p><b>{{ $f['jenis'] }}</b> &middot; {{ $f['asal'] }}</p>
+                <p>{{ $f['genre'] }}</p>
+            </article>
+        @endforeach
+    </div>
 </div>
 @endsection

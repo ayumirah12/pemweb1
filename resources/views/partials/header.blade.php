@@ -4,6 +4,8 @@
         ['label' => 'Home',      'route' => 'home'],
         ['label' => 'Data Diri', 'route' => 'data-diri'],
         ['label' => 'Galeri',    'route' => 'galeri'],
+        ['label' => 'Playlist',  'route' => 'playlist'],
+        ['label' => 'Teman',     'route' => 'teman'],
     ];
 @endphp
 <header class="header">

@@ -10,3 +10,6 @@
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
 }
+/* Playlist: animasi fade saja, supaya iframe Spotify tidak kosong */
+.panel-tab.panel-playlist.masuk{animation:munculHalus .35s ease both}
+@keyframes munculHalus{from{opacity:0}to{opacity:1}}
